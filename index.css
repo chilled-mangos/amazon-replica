@@ -1,0 +1,111 @@
+*{
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, serif;
+}
+
+.main_box{
+    /* margin auto centers main box */
+    margin: auto;
+    width: 33%;
+}
+
+/* logo */
+#logo{
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* box1 */
+.box1{
+    border: 2px solid #eff1f3;
+    margin-top: 10%; /* helps leave space above logo */
+    padding: 5%;
+    margin-bottom: 8%;
+}
+
+input{
+    width: 100%;
+    border-radius: 4px;
+}
+
+.section{
+    /* spaceing between email and password */
+    padding: 10px;
+}
+
+#forgot{
+    padding-left: 14em;
+}
+/* continue button */
+#continue{
+    width: 102%;
+    border-radius: 4px;
+    background-color: #f1c668;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    /* get rid of underline of link */
+}
+
+/* free box */
+#create{
+    width: 102%;
+    border-radius: 4px;
+    background-color: #eff1f3;
+    margin-top: 5%;
+    cursor: pointer;
+}
+
+#new p{
+    text-align: center; 
+    /* creates the line below the text*/
+    border-bottom:1px solid black;  
+    /*brings the line into the center of the text */
+    line-height: 0.1em;
+    
+}
+
+p span{
+    /* adds space between text & line */
+    background: white;
+    padding: 0 10px; /*top pad & right pad*/
+}
+/* knowledge box */
+/* padding: 0 0 0 0
+   top pad / right pad / bottom pad / left pad */
+
+/* footer */
+
+footer{
+    background-color: #eff1f3;
+    border-top:  solid 1px black;
+    height: auto;
+    margin-top: 5em;
+    /* helps keep the footer to background  color to the bottom*/
+    min-height: 5em; 
+}
+
+.bottom_box{
+    background-color: #eff1f3;
+    margin: auto;
+    width: 33%;
+    text-align: center;
+}
+
+
+.bottom_box ul{
+    padding-right: 10%;
+}
+.bottom_box li{
+    display: inline;
+    margin: 0.5em;
+   
+}
+
+
+
+
+
+
